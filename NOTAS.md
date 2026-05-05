@@ -1,4 +1,4 @@
-### ¿Cuándo es contraproducente crear un índice? (pista: piensa en tablas con muchas escrituras)
+### ¿Cuándo es contraproducente crear un índice? (pista: piensa en tablas con muchas escrituras).
 Un índice acelera las lecturas, pero ralentiza las escrituras, por lo que es contraproducente usar un índice en caso de querer hacer INSERT, UPDATE o DELETE constantemente, por ejemplo: operaciones que cambian mucho contenido o están constantemente modificando datos. 
 
 ### ¿Qué diferencia hay entre RANK() y DENSE_RANK()? Pon un ejemplo con los datos de la base de datos.
